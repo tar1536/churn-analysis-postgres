@@ -70,7 +70,7 @@ This score was computed using SQL logic inside a CASE-based formula and used to 
 
 ## 📈 Dashboard Preview
 
-![Dashboard](reports/churn_dashboard_final.png)
+![Dashboard](Reports/churn_dashboard_final.png)
 
 Includes:
 
@@ -78,25 +78,6 @@ Includes:
 - Donut + Bar charts: Churn by Contract, Payment, Internet Service
 - Tenure-based churn insights
 - Embedded Insight Summary Box
-
----
-
-## 📁 Project Structure
-/sql/
-├── create_table.sql            ← Table + indexes
-├── data_insertion.sql          ← \COPY from CSV
-└── Query_analysis.sql        ← Churn, revenue loss, churn score, etc.
-
-/data/
-└── WA_Fn-UseC_-Telco-Customer-Churn.csv  ← Dataset (or download instruction)
-
-/reports/
-├── churn_kpi_dashboard.pbix    ← Final Power BI file
-├── churn_dashboard_final.png   ← Dashboard image preview
-└── sql_outputs/                ← .txt logs for transparency
-    ├── churn_by_contract.txt
-    ├── churn_score_distribution.txt
-    └── revenue_lost_by_segment.txt
 
 ---
 
